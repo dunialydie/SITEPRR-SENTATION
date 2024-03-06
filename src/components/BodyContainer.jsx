@@ -16,7 +16,7 @@ export default function BodyContainer() {
       {/* premier carré */}
 
       <div className="relative 2xl:h-screen md:h-auto md:col-span-5 rounded border-r border-b border-black px-6 py-6 h-96 grid 2xl:grid-rows-5 md:grid-rows-2">
-        <div className="2xl:grid 2xl:grid-row-3 gap-y-6 text-5xl 2xl:text-9xl md:flex md:flex-col md:text-7xl 2xl:items-center md:grid-row-3 md:w-auto xl:text-8xl items-center flex flex-col">
+        <div className="2xl:grid 2xl:grid-row-3 gap-y-6 text-5xl 2xl:text-9xl md:flex md:flex-col md:text-7xl 2xl:items-center md:grid-row-3 md:w-auto xl:text-8xl items-center flex flex-col 2xl:pt-14">
           <div className=" ">
             <span className="font-bold ">DUNIA</span>
             <span>DEV</span>
