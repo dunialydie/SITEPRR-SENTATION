@@ -7,7 +7,8 @@ import {
   faCaretRight,
   faCode,
 } from "@fortawesome/free-solid-svg-icons";
-import profilPic from "/src/assets/profile-pic.png";
+import profilPic from "/src/assets/w2-removebg-preview.png";
+import smallPicture from "/src/assets/profile-pic(3).png";
 
 export default function BodyContainer() {
   return (
@@ -64,9 +65,9 @@ export default function BodyContainer() {
               </span>
             </div>
             <div className=" flex">
-              <div className="rounded-full bg-backgoround1 bg-no-repeat bg-cover bg-center h-12 w-12 relative right-4"></div>
-              <div className="rounded-full bg-backgoround2 bg-no-repeat bg-cover bg-center h-12 w-12 relative right-6"></div>
-              <div className="rounded-full bg-backgoround3 bg-no-repeat bg-cover bg-center h-12 w-12 relative right-8"></div>
+              <img className="rounded-full bg-backgoround1 bg-no-repeat bg-cover bg-center h-12 w-12 relative right-4" src={smallPicture}/>
+              <img className="rounded-full bg-backgoround2 bg-no-repeat bg-cover bg-center h-12 w-12 relative right-6" src={smallPicture}/>
+              <img className="rounded-full bg-backgoround3 bg-no-repeat bg-cover bg-center h-12 w-12 relative right-8" src={smallPicture}/>
             </div>
           </div>
 
@@ -137,47 +138,3 @@ export default function BodyContainer() {
     </div>
   );
 }
-
-{
-  /* <div className="col-span-3 bg-backgoround bg-no-repeat bg-cover bg-center w-full h-auto rounded border-2 border-black">
-                <div className="flex h-full justify-end flex-col rounded-xl">
-                    <div className=" flex gap-24 justify-between mx-12  mb-48">
-                        <Buttons  style="rounded-full bg-white px-4 py-3 text-4xl ">
-                            <span className="mr-6 ">ALL SERVICES</span>
-                            < FontAwesomeIcon icon={faArrowRight}/> 
-                        </Buttons>
-                        <Buttons  style="rounded-full bg-white px-4 py-2 text-4xl">
-                            <FontAwesomeIcon icon={faCaretRight} />
-                        </Buttons>
-                    </div>
-                </div>
-            </div> */
-}
-
-// <div style={{ background: "url('src/assets/profile-pic(4).png')", 'background-position': 'center', 'background-size': 'cover'}} className="md:col-span-3 md:w-full md:h-auto h-80 rounded border-2 border-black">
-//     <div className="flex h-full justify-end flex-col rounded ">
-//         <div className=" flex xl:justify-between mx-12 justify-between xl:gap-6 md:w-auto md:mx-3 xl:text-xl 2xl:text-5xl md:mb-24">
-//             <Buttons  style="rounded-full bg-white px-4 py-3 text-base md:py-2 md:text-4xl">
-//                 <span className="mr-6 ">ALL SERVICES</span>
-//                 < FontAwesomeIcon icon={faArrowRight}/>
-//             </Buttons>
-//             <Buttons  style="rounded-full bg-white px-4 py-2  text-base md:text-4xl">
-//                 <FontAwesomeIcon icon={faCaretRight} />
-//             </Buttons>
-//         </div>
-//     </div>
-// </div>
-
-// <div className={`bg-[url(${profilPic})] md:col-span-3 md:w-full md:h-auto h-80 rounded border-2 border-black`}>
-//     <img src="src/assets/profile-pic(4).png" alt="photo" className="h-full relative border-2 border-red-700 w-full"/>
-//     {/* <div className="grid 2xl:grid-rows-11 md:grid-rows-6 h-full rounded place-items-center absolute top-1 boder-2 border-blue-800"> */}
-//         <div className="flex 2xl:row-start-10 md:row-start-6  2xl:mx-12 2xl:justify-between xl:text-xl 2xl:text-5xl 2xl:w-full 2xl:px-3 md:w-full w-auto boder-2 border-blue-800 absolute left-6 bottom-5 gap-8">
-//             <Buttons  style="rounded-full bg-white 2xl:px-4 2xl:py-3 text-base flex justify-between items-center md:text-3xl md:p-3 p-5">
-//                 <span className="2xl:mr-6 md:mr-3 mr-2">ALL SERVICES</span>
-//                 < FontAwesomeIcon icon={faArrowRight}/>
-//             </Buttons>
-//             <Buttons  style="rounded-full bg-white 2xl:px-4 2xl:py-2  text-base md:text-3xl md:p-3 p-5">
-//                 <FontAwesomeIcon icon={faCaretRight} />
-//             </Buttons>
-//         </div>
-// </div>
